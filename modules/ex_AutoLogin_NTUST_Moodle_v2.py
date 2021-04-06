@@ -30,12 +30,3 @@ def auto_login_moodle():
 	time.sleep(1)
 	btnLogin.click()
 	return driver
-
-'''
-def get_new_driver():
-	chrome_options = Options()
-	chrome_options.add_argument("--headless")
-	wd_path = r"D:\geckodriver\chromedriver.exe"
-	driver = wd.Chrome(wd_path, options=chrome_options)
-	return driver
-'''
