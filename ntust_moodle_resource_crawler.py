@@ -58,16 +58,6 @@ def get_moodle_resources():
             print(f'({k}) {v["title"]} \nis-available: {v["flag"]} \nlink-tier1: {v["link-tier1"]}')
         #print(len(resources)) # 93
         '''
-        
-        '''
-        [result]
-        (91) 2020 期中考解答 
-        is-available: True 
-        link-tier1: https://moodle.ntust.edu.tw/mod/resource/view.php?id=354292
-        (92) 期中考注意事項（4/13 發放） 
-        is-available: True 
-        link-tier1: https://moodle.ntust.edu.tw/mod/resource/view.php?id=354295
-        '''
         driver.quit()
         return resources
 
